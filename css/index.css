@@ -74,10 +74,11 @@ p {
 /* **************** 
  *  Index.html style
  * **************** 
-*/
+ */
 
 
 /* Header content styles */
+
 header {
     display:flex;
     justify-content:space-between;
@@ -99,6 +100,7 @@ nav a {
 
 
 /* Top content styles */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -117,6 +119,7 @@ nav a {
 
 
 /* Middle content styles */
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -174,7 +177,6 @@ nav a {
 
 /* Bottom content styles */
 
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -206,4 +208,58 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* 
+ * *****************
+ * About page styles
+ * *****************
+ */
+
+
+ /* Top content styles */
+
+ .about {
+   padding:2%;
+ }
+
+
+ /* Middle content styles */
+
+.container.about-page {
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:space-between;
+   /* margin-top:25px;
+   margin-bottom:25px;
+   width:45%; */
+   padding:2%
+}
+.mid-container {
+  width:45%;
+  border-bottom: 1px dashed black;
+  margin-bottom:25px;
+  padding:2%;
+}
+.mid-container img {
+  width:100%;
+  margin-bottom:15px;
+}
+.mid-container p {
+  margin-bottom:15px;
+}
+.mid-container button {
+  text-align:center;
+  font-size:18px;
+  border-radius:8px;
+  border-color:black;
+  padding:2%;
+  
+}
+
+
+/* Bottom content styles */
+.bottom-section {
+  margin-bottom:25px;
+  padding:2%;
 }
